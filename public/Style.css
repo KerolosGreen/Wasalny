@@ -40,7 +40,7 @@ h2{
     display: flex;
     width: 96%;
     background-color: rgba(99, 99, 99, 0.111);
-    height: 85vh;
+    height: 82vh;
     margin-left: auto;
     margin-right: auto;
     color: black;
@@ -79,7 +79,6 @@ border-radius:15px;
 @media only screen and (max-width: 600px) {
     .AppBodyClass{
         height: 78vh;
-background-color:red;
     }
     .footercont{
   /*  height: 7vh;*/
