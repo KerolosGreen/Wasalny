@@ -67,3 +67,10 @@ h2{
         height: 78vh;
     }
   }
+
+@media (max-width: 900px) {
+    .AppBodyClass{
+        height: 80vh;
+    }
+  }
+
