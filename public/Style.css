@@ -79,6 +79,7 @@ border-radius:15px;
 @media only screen and (max-width: 600px) {
     .AppBodyClass{
         height: 78vh;
+background-color:red;
     }
     .footercont{
   /*  height: 7vh;*/
