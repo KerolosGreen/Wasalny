@@ -4,6 +4,10 @@ body{
     /* background-color: black; */
     /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.757); */
     background-image: linear-gradient(-30deg, rgb(120, 163, 235), rgb(251, 194, 235), rgb(120, 163, 235));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 h2{
     color: black;
@@ -23,21 +27,20 @@ h2{
     font-size: 18px;
 }
 .footercont{
-/*     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.324); */
+
     position: absolute;
     bottom: 0px;
     width: 100%;
     font-size: 12px;
-/*     backdrop-filter:blur(15px); */
-    color:white;
-    height:5vh;
+    color:rgb(0, 0, 0);
 }
+
 .AppBodyClass{
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.324);
     display: flex;
     width: 96%;
     background-color: rgba(99, 99, 99, 0.111);
-    height: 80vh;
+    height: 85vh;
     margin-left: auto;
     margin-right: auto;
     color: black;
@@ -62,16 +65,12 @@ h2{
     font-size: 21px;
 }
 
-
 @media only screen and (max-width: 600px) {
     .AppBodyClass{
-        height: 78vh;
+        height: 82vh;
+    }
+    .footercont{
+    height: 7vh;
+    background-attachment: fixed;
     }
   }
-
-/* @media only screen and (max-width: 900px) {
-    .AppBodyClass{
-        height:90vh;
-    }
-  }
- */
