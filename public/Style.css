@@ -28,7 +28,7 @@ h2{
     bottom: 0px;
     width: 100%;
     font-size: 12px;
-    background-color: white;
+    backdrop-filter:blur(15px);
 }
 .AppBodyClass{
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.324);
