@@ -63,6 +63,9 @@ h2{
     align-items: center;
 }
 .AppBottomClass{
+    text-align:center;
+    width:80%;
+    font-family: 'Noto Sans Arabic', sans-serif;
     font-size: 21px;
 }
 
