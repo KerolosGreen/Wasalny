@@ -50,6 +50,13 @@ h2{
     flex-direction: column;
     padding: 1vh;
 }
+
+.AppHeaderClass img{
+
+style="border-radius:15px;"
+}
+
+
 .AppHeaderClass{
     text-align:center;
    font-size: 18px;
