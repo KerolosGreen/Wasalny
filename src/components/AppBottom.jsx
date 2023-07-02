@@ -5,7 +5,7 @@ function AppBottom(){
     return(
             <>
             <div className='AppBottomClass'>
-                <p>هنا هيقوله اركب اتجاه المرج مثلا و انزل عين شمس</p>
+                <p>ااركب اتجاه المرج و انزل محطة عين شمس</p>
             </div>
             </>
     )
