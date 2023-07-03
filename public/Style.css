@@ -84,3 +84,20 @@ border-radius:15px;
   /*  height: 7vh;*/
     }
   }
+
+
+ #UnderDevelopingClass{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    z-index: 1;
+  }
+
+  #UnderDevelopingClass p{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
