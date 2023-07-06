@@ -28,7 +28,7 @@ h2{
 }
 .footercont{
 
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0px;
     width: 100%;
     font-size: 12px;
