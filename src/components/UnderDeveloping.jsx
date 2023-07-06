@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-function UnderDeveloping(){
+function UnderDeveloping(props){
 
     function CloseUnderDeveloping(){
         document.getElementById("UnderDevelopingClass").style.display='none';
@@ -19,10 +19,10 @@ function UnderDeveloping(){
             {/* <h1 class=" mx-auto modal-title fs-5">Modal title</h1> */}
             </div>
             <div class="modal-body py-0">
-            <p>لمواخذه يا ابو الصحاب لسه بظبط حته المحطات دي عشان تقيلة سيكا و فيها شغل كتير و محطات الدولة كلها محتاجه تتحط كويس</p>
+            <p>{props.howtogonow}</p>
             </div>
              <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
-              <button type="button" class="btn btn-lg btn-primary" onClick={CloseUnderDeveloping}>خالصة يخويا الله يعينك</button>
+              <button type="button" class="btn btn-lg btn-primary" onClick={CloseUnderDeveloping}>حبيبي</button>
                     </div>
                 </div>
             </div>
