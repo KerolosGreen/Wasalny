@@ -264,7 +264,7 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                              <>
                              <label>عايز تروح محطة ايه؟</label>
                              <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangedestinationstation}>
-                             <option disabled>محطات الخط التاني</option>
+                             
                              <option defaultValue value="1">المنيب</option>
                              <option value="2">ساقية مكى</option>
                              <option value="3">أم المصريين</option>
