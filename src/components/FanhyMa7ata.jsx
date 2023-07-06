@@ -183,7 +183,38 @@ function FanhyMa7ata(props){
     <option value="19">كلية الزراعة</option>
     <option value="20">شبرا الخيمة</option>
 </select>
+</>:
+
+             {...props.namecurrentlevel==3?
+    <>
+    <label>انت في محطة ايه؟</label>
+    <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangestation}>
+    <option defaultValue value="1">عدلي منصور</option>
+                                 <option value="2">الهايكستب</option>
+                                 <option value="3">عمر بن الخطاب</option>
+                                 <option value="4">قباء</option>
+                                 <option value="5">هشام بركات</option>
+                                 <option value="6">النزهة</option>
+                                 <option value="7">نادي الشمس</option>
+                                 <option value="8">ألف مسكن</option>
+                                 <option value="9">ميدان هيليوبليس</option>
+                                 <option value="10">هارون</option>
+                                 <option value="11">الأهرام</option>
+                                 <option value="12">كلية البنات</option>
+                                 <option value="13">الاستاد</option>
+                                 <option value="14">ارض المعارض</option>
+                                 <option value="15">العباسية</option>
+                                 <option value="16">عبده باشا</option>
+                                 <option value="17">الجيش</option>
+                                 <option value="18">باب الشعرية</option>
+                                 <option value="19">العتبة</option>
+                                 <option value="20">ماسبيرو</option>
+                                 <option value="21">الزمالك</option>
+                                 <option value="22">الكيت كات</option>
+</select>
 </>:null}
+             
+         }
         }
          
 
