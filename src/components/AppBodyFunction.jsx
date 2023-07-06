@@ -31,9 +31,7 @@ function AppBodyFunction(props){
         <h4>Destination Level : {destinationlevel}</h4>
         <h4>Destination Station : {destination}</h4>
         <h4>How To Section : {howtogo}</h4> */}
-        <p class="bg-secondary rounded-pill px-3 text-light" id='resultid'>
-        {howtogo}
-                    </p>
+        
     </div>
     </>
     )
