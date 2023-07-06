@@ -12,7 +12,7 @@ function NavBar(){
       BodyStyle.style.backgroundImage='none';
       BodyStyle.style.backgroundColor='rgb(32, 33, 33)';
       // BodyStyle.querySelector("p").style.color='white';
-      document.querySelectorAll("h1, h2, h3, h4, h5, h6").style.color='white';
+      document.querySelectorAll("h1, h2, h3, h4, h5, h6 , label").style.color='white';
       // BodyStyle.querySelector("label").style.color='white';
       // document.getElementsByTagName("p").style.color='white';
       
