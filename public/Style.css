@@ -45,7 +45,7 @@ h2{
     margin-right: auto;
     color: black;
     border-radius: 15px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     padding: 1vh;
