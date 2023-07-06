@@ -164,8 +164,8 @@ function FanhyMa7ata(props){
     <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangestation}>
     <option defaultValue value="1">المنيب</option>
     <option value="2">ساقية مكى</option>
-    <option value="3">ضواحى الجيزة</option>
-    <option value="4">أم المصريين</option>
+    <option value="3">أم المصريين</option>
+    <option value="4">محطة الجيزة</option>
     <option value="5">فيصل</option>
     <option value="6">جامعة القاهرة</option>
     <option value="7">الدقى</option>
