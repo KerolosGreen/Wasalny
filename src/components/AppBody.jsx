@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import AppBodyFunction from './AppBodyFunction';
 import AppHeader from './AppHeader';
 import AppBottom from './AppBottom';
+import Footer from './Footer';
 
 const ThisYear = new Date();
 function AppBody(){
@@ -12,6 +13,7 @@ function AppBody(){
             <AppHeader/>
             <AppBodyFunction sethowtogonow={sethowtogonow}/>
             <AppBottom howtogonow={howtogonow} />
+            <Footer/>
         </div>
     )
 }
