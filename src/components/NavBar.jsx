@@ -2,27 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function NavBar(){
-  function DarkModeOrLightMode(){
-    const BodyStyle=document.getElementById("body");
-    const BodyStyleCompute=window.getComputedStyle(BodyStyle).backgroundImage;
-    // console.log(BodyStyleCompute);
+ function DarkModeOrLightMode(){
+    document.body.classList.toggle('darkmode');
 
-    if(BodyStyleCompute == 'linear-gradient(-30deg, rgb(120, 163, 235), rgb(251, 194, 235), rgb(120, 163, 235))'){
-      console.log(BodyStyleCompute);
-      BodyStyle.style.backgroundImage='none';
-      BodyStyle.style.backgroundColor='rgb(32, 33, 33)';
-      // BodyStyle.querySelector("p").style.color='white';
-      // document.querySelectorAll("h1, h2, h3, h4, h5, h6 , label").style.color='white';
-      // BodyStyle.querySelector("label").style.color='white';
-      // document.getElementsByTagName("p").style.color='white';
-      
-    }
-    else{
-      BodyStyle.style.backgroundImage='linear-gradient(-30deg, rgb(120, 163, 235), rgb(251, 194, 235), rgb(120, 163, 235))';
-      BodyStyle.style.backgroundColor='none';
-      // document.querySelectorAll("h1, h2, h3, h4, h5, h6").style.color='black';
-
-    }
   }
     return(
         <nav className="navbar navbar-expand bg-body-tertiary rounded m-2 p-2" id='NavBarId'>
