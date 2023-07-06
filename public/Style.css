@@ -53,6 +53,7 @@ h2{
 .AppHeaderClass{
    font-size: 18px;
    font-family: 'Noto Sans Arabic', sans-serif;
+    text-align:center;
 }
 .AppBodyFunctionClass{
     font-family: 'Noto Sans Arabic', sans-serif;
