@@ -168,6 +168,7 @@ function WasalnyButton(props){
                 props.sethowtogo(" ما انت كده في المحطة يسطا , ركز بالله عليك ");
                     document.getElementById("UnderDevelopingClass").style.display='block';
         }
+document.getElementById("UnderDevelopingClass").style.display='block';
 
     }
 
