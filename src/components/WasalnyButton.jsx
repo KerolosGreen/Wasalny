@@ -104,22 +104,22 @@ function WasalnyButton(props){
         if(CurrentLVL==DestLVL && DestLVL==1 ){
             if(CurrentStation>DestStation){
                 props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
             }
             else{
                 props.sethowtogo(" اركب اتجاه المرج ← انزل محطة " +firstLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
             }
         }
 
         if(CurrentLVL==DestLVL && DestLVL==2 ){
             if(CurrentStation>DestStation){
                 props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
             }
             else{
                 props.sethowtogo(" اركب اتجاه شبرا الخيمه ← انزل محطة " +SecondLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
             }
         }
 
@@ -127,19 +127,19 @@ function WasalnyButton(props){
             if(CurrentStation>19){
                 if(DestStation>10)
                 props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه شبرا الخيمه ← انزل محطة "+SecondLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                    
                 else{
                     props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
                 }
             }
             else{
                 if(DestStation>10)
                 props.sethowtogo(" اركب اتجاه المرج ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه شبرا الخيمة ← انزل محطة "+SecondLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                   
                 else{
                     props.sethowtogo(" اركب اتجاه المرج ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                   
                 }
             }
         }
@@ -148,27 +148,27 @@ function WasalnyButton(props){
             if(CurrentStation>10){
                 if(DestStation>19)
                 props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                    
                 else{
                     props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[DestStation]);
-                document.getElementById("UnderDevelopingClass").style.display='block';
+                
                 }
             }
             else{
                 if(DestStation>19)
                 props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                    
                 else{
                     props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[DestStation]);
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                    
                 }
             }
         }
                 if(CurrentLVL==DestLVL && CurrentStation==DestStation){
                 props.sethowtogo(" ما انت كده في المحطة يسطا , ركز بالله عليك ");
-                    document.getElementById("UnderDevelopingClass").style.display='block';
+                    
         }
-document.getElementById("UnderDevelopingClass").style.display='block';
+
 
     }
 
