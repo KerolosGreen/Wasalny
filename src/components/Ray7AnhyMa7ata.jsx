@@ -271,8 +271,8 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                              <option value="4">محطة الجيزة</option>
                              <option value="5">فيصل</option>
                              <option value="6">جامعة القاهرة</option>
-                             <option value="7">الدقى</option>
-                             <option value="8">البحوث</option>
+                             <option value="7">البحوث</option>
+                             <option value="8">الدقي</option>
                              <option value="9">الأوبرا</option>
                              <option value="10">السادات</option>
                              <option value="11">محمد نجيب</option>
