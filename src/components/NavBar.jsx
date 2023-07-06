@@ -6,7 +6,7 @@ function NavBar(){
     return(
         <nav className="navbar navbar-expand bg-body-tertiary rounded m-2 p-2" id='NavBarId'>
         <div className="container-fluid p-0">
-          <a className="navbar-brand" href="#">Wasalny</a>
+          <a className="navbar-brand" href="#">Wasalnyy</a>
           <div className="dark-button" onClick={DarkModeOrLightMode}>
             <i className="fa-solid fa-circle-half-stroke"></i>
           </div>
