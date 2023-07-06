@@ -267,7 +267,7 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                              <option disabled>محطات الخط التاني</option>
                              <option defaultValue value="1">المنيب</option>
                              <option value="2">ساقية مكى</option>
-                             <option value="3">ضواحى الجيزة</option>
+                             <option value="3">أم المصريين</option>
                              <option value="4">محطة الجيزة</option>
                              <option value="5">فيصل</option>
                              <option value="6">جامعة القاهرة</option>
