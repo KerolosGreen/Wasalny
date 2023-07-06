@@ -137,9 +137,7 @@ function AppBottom(props){
             {/* <input type='text' onChange={onChangeName}/> */}
             <div className='AppBottomClass'>
                 {/* <p>{firstLVLstations[name]}</p> */}
-                    <p class="bg-dark rounded-pill px-3 text-light p-2" id='resultid'>
-                    {props.howtogonow}
-                    </p>
+                    <p class="bg-dark rounded-pill px-3 text-light p-2" id='resultid'>{props.howtogonow}</p>
                 
                 
                                         
