@@ -1,0 +1,104 @@
+body{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    /* background-color: black; */
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.757); */
+    background-image: linear-gradient(-30deg, rgb(120, 163, 235), rgb(251, 194, 235), rgb(120, 163, 235));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    color: black;
+}
+#NavBarId{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.324);
+}
+.dark-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.264);
+    font-size: 18px;
+}
+.footercont{
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+    color:rgb(0, 0, 0);
+}
+
+.AppBodyClass{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.324);
+    display: flex;
+    width: 96%;
+    background-color: rgba(99, 99, 99, 0.111);
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh;
+}
+.AppHeaderClass{
+   font-size: 18px;
+   font-family: 'Noto Sans Arabic', sans-serif;
+}
+.AppBodyFunctionClass{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AppBottomClass{
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 600px) {
+    .AppBodyClass{
+        height: 82vh;
+    }
+    .footercont{
+    height: 7vh;
+    background-attachment: fixed;
+    }
+    #resultid{
+        font-size: 18px;
+      }
+  }
+
+
+
+  #UnderDevelopingClass{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    z-index: 1;
+  }
+
+  #UnderDevelopingClass p{
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .navbar-brand{
+    font-family: 'Rubik', sans-serif;
+  }
+  #resultid{
+    text-align: center;
+  }
