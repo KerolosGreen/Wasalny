@@ -25,7 +25,7 @@ function AppBodyFunction(props){
         <Ray7AnhyMa7ata currentmetrolevel={currentlvl} currentmetrostation={currentstation} destinationlevel={destinationlevel} setdestination={setdestination}/>
         <WasalnyButton currentlvl={currentlvl} currentstation={currentstation} destinationlevel={destinationlevel} destination={destination} sethowtogo={props.sethowtogonow}/>
         {/* <HowToGo/> */}
-        <UnderDeveloping/>
+        <UnderDeveloping howtogonow={props.howtogonow}/>
         {/* <h4>Current Level : {currentlvl}</h4>
         <h4>Current Station :{currentstation}</h4>
         <h4>Destination Level : {destinationlevel}</h4>
