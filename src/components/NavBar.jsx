@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function NavBar(){
+ function DarkModeOrLightMode(){
+    document.body.classList.toggle('darkmode');
+ }
  
     return(
         <nav className="navbar navbar-expand bg-body-tertiary rounded m-2 p-2" id='NavBarId'>
