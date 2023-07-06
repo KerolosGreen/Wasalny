@@ -12,6 +12,7 @@ function NavBar(){
       BodyStyle.style.backgroundImage='none';
       BodyStyle.style.backgroundColor='rgb(32, 33, 33)';
       // BodyStyle.querySelector("p").style.color='white';
+      document.querySelectorAll("h1, h2, h3, h4, h5, h6").style.color='white';
       // BodyStyle.querySelector("label").style.color='white';
       // document.getElementsByTagName("p").style.color='white';
       
@@ -19,6 +20,7 @@ function NavBar(){
     else{
       BodyStyle.style.backgroundImage='linear-gradient(-30deg, rgb(120, 163, 235), rgb(251, 194, 235), rgb(120, 163, 235))';
       BodyStyle.style.backgroundColor='none';
+      document.querySelectorAll("h1, h2, h3, h4, h5, h6").style.color='black';
 
     }
   }
