@@ -75,6 +75,8 @@ h2{
     }
     #resultid{
         font-size: 18px;
+        padding:2px;
+        margin:5px;
       }
   }
 
@@ -101,4 +103,5 @@ h2{
   }
   #resultid{
     text-align: center;
+    padding:5px;
   }
