@@ -268,7 +268,7 @@ window.alert("The Website Is Still Under Developing , Once It Is Ready , This Me
             if(CurrentStation>DestStation){
                 props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);            }
             else{
-                props.sethowtogo(" اركب اتجاه المرج ← انزل محطة " +firstLVLstations[DestStation]);
+                props.sethowtogo(" اركب اتجاه المرج ← انزل محطة " +firstLVLstations[parseInt(DestStation)]);
             }
         }
 
