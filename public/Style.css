@@ -122,7 +122,7 @@ h2{
 
 @media only screen and (max-width: 600px) {
     .AppBodyClass{
-        height: auto;
+        height: 82vh;
     }
     .footercont{
     height: 7vh;
