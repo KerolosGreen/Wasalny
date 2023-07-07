@@ -265,15 +265,15 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                              <label>عايز تروح محطة ايه؟</label>
                              <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangedestinationstation}>
                              
-                             <option defaultValue value="1">المنيب</option>
-                             <option value="2">ساقية مكى</option>
-                             <option value="3">أم المصريين</option>
-                             <option value="4">محطة الجيزة</option>
-                             <option value="5">فيصل</option>
-                             <option value="6">جامعة القاهرة</option>
-                             <option value="7">البحوث</option>
-                             <option value="8">الدقي</option>
-                             <option value="9">الأوبرا</option>
+                             <option defaultValue value="01">المنيب</option>
+                             <option value="02">ساقية مكى</option>
+                             <option value="03">أم المصريين</option>
+                             <option value="04">محطة الجيزة</option>
+                             <option value="05">فيصل</option>
+                             <option value="06">جامعة القاهرة</option>
+                             <option value="07">البحوث</option>
+                             <option value="08">الدقي</option>
+                             <option value="09">الأوبرا</option>
                              <option value="10">السادات</option>
                              <option value="11">محمد نجيب</option>
                              <option value="12">العتبة</option>
@@ -296,15 +296,15 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                                  <>
                                  <label>عايز تروح محطة ايه؟</label>
                                  <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangedestinationstation}>
-                                 <option defaultValue value="1">عدلي منصور</option>
-                                 <option value="2">الهايكستب</option>
-                                 <option value="3">عمر بن الخطاب</option>
-                                 <option value="4">قباء</option>
-                                 <option value="5">هشام بركات</option>
-                                 <option value="6">النزهة</option>
-                                 <option value="7">نادي الشمس</option>
-                                 <option value="8">ألف مسكن</option>
-                                 <option value="9">ميدان هيليوبليس</option>
+                                 <option defaultValue value="01">عدلي منصور</option>
+                                 <option value="02">الهايكستب</option>
+                                 <option value="03">عمر بن الخطاب</option>
+                                 <option value="04">قباء</option>
+                                 <option value="05">هشام بركات</option>
+                                 <option value="06">النزهة</option>
+                                 <option value="07">نادي الشمس</option>
+                                 <option value="08">ألف مسكن</option>
+                                 <option value="09">ميدان هيليوبليس</option>
                                  <option value="10">هارون</option>
                                  <option value="11">الأهرام</option>
                                  <option value="12">كلية البنات</option>
