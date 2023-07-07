@@ -228,7 +228,7 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
              <option value="6">المعصرة</option>
              <option value="7">طرة الأسمنت</option>
              <option value="8">كوتسيكا</option>
-             <option value="9">طرة البلد</option>
+             <option value="09">طرة البلد</option>
              <option value="10">ثكنات المعادي</option>
              <option value="11">المعادي</option>
              <option value="12">حدائق المعادي</option>
