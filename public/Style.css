@@ -29,7 +29,7 @@
     --light-background:var(--dark-background);
     --navrbar-color:var(--navbarcolor-dark);
     --darkbutton-backgroundcolor-light:var(--darkbutton-backgroundcolor-dark);
-    --footer-color-lightmode:--footer-color-darkmode;
+    --footer-color-lightmode:var(--footer-color-darkmode);
 
 }
 
