@@ -220,14 +220,14 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
             <>
              <label>عايز تروح محطة ايه؟</label>
              <select className="w-100 m-2 custom-select rounded" id="inputGroupSelect01" name='L5atrkmkam' onChange={onchangedestinationstation}>
-             <option defaultValue value="1">حلوان</option>
-             <option value="2">عين حلوان</option>
-             <option value="3">جامعة حلوان</option>
-             <option value="4">وادي حوف</option>
-             <option value="5">حدائق حلوان</option>
-             <option value="6">المعصرة</option>
-             <option value="7">طرة الأسمنت</option>
-             <option value="8">كوتسيكا</option>
+             <option defaultValue value="01">حلوان</option>
+             <option value="02">عين حلوان</option>
+             <option value="03">جامعة حلوان</option>
+             <option value="04">وادي حوف</option>
+             <option value="05">حدائق حلوان</option>
+             <option value="06">المعصرة</option>
+             <option value="07">طرة الأسمنت</option>
+             <option value="08">كوتسيكا</option>
              <option value="09">طرة البلد</option>
              <option value="10">ثكنات المعادي</option>
              <option value="11">المعادي</option>
