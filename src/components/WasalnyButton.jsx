@@ -261,7 +261,7 @@ function WasalnyButton(props){
         //         props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[DestStation]);
         //     }
         // }
-window.Alert("The Website Is Still Under Developing , Once It Is Ready , This Message Won't Appear To You");
+window.alert("The Website Is Still Under Developing , Once It Is Ready , This Message Won't Appear To You , So The Appearing Data Is Not 100% Right.");
 
 
         if(CurrentLVL==DestLVL && DestLVL==1 ){
