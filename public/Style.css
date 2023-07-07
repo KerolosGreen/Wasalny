@@ -13,12 +13,12 @@
 }
 
 
-@media screen and (prefers-color-scheme: dark) {
+/* @media screen and (prefers-color-scheme: dark) {
 #inputGroupSelect01{
   background-color:red;
   color:White;
 }
-}
+} */
 
 
 .darkmode{
