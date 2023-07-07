@@ -113,17 +113,7 @@ function WasalnyButton(props){
     // }
 
 
-    // function EzayAro7(LVL,Station,DLVL,Dstation){
-    //     // props.sethowtogo(LVL+" "+Station+" "+DLVL+" "+Dstation);
-    //     if(LVL==DLVL&&LVL==1){
-    //         props.sethowtogo("Level One");
-
-    //     }
-    //     if(LVL==DLVL&&LVL==2){
-    //         props.sethowtogo("Level Two");
-
-    //     }
-    // }
+    
     function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
         
 
