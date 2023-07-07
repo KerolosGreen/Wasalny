@@ -9,7 +9,9 @@
     --navrbar-color:rgba(248, 249, 250, 0.686);
     --navbarcolor-dark:rgba(0, 0, 0, 0.355);
     --darkbutton-backgroundcolor-light:white;
-    --darkbutton-backgroundcolor-dark: #485461;;
+    --darkbutton-backgroundcolor-dark: #485461;
+    --footer-color-lightmode:white;
+    --footer-color-darkmode:wheat;
 }
 
 
@@ -27,6 +29,7 @@
     --light-background:var(--dark-background);
     --navrbar-color:var(--navbarcolor-dark);
     --darkbutton-backgroundcolor-light:var(--darkbutton-backgroundcolor-dark);
+    --footer-color-lightmode:--footer-color-darkmode;
 
 }
 
@@ -68,7 +71,7 @@ h2{
     width: 100%;
     font-size: 12px;
     font-weight: 500;
-    color:var(--light-black);
+    color:var(--footer-color-lightmode);
 }
 
 .AppBodyClass{
