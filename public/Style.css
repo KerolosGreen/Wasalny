@@ -12,6 +12,15 @@
     --darkbutton-backgroundcolor-dark: #485461;;
 }
 
+
+@media screen and (prefers-color-scheme: dark) {
+#inputGroupSelect01{
+  background-color:red;
+  color:White;
+}
+}
+
+
 .darkmode{
     --light-white:var(--dark-black);
     --light-black:var(--dark-white);
