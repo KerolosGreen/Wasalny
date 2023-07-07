@@ -413,7 +413,7 @@ function WasalnyButton(props){
     return(
     <>
     <button type='submit' className='btn btn-primary rounded shadow-sm' onClick={() => { HowToGo(props.currentlvl,props.currentstation,props.destinationlevel,props.destination) }}>وصلني</button>
-    {/* {props.currentlvl+" "+props.currentstation+" "+props.destinationlevel+" "+props.destination} */}
+    {props.currentlvl+" "+props.currentstation+" "+props.destinationlevel+" "+props.destination} 
 
 
     </>
