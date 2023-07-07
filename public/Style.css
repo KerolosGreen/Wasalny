@@ -20,11 +20,11 @@
   color:White;
 }
 } 
- @media (prefers-color-scheme: light) {
+/*  @media (prefers-color-scheme: light) {
 #inputGroupSelect01{
   color:black;
 }
-}
+} */
 
 
 .darkmode{
