@@ -299,7 +299,7 @@ function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
                                  <option value="319">العتبة</option>
                                  <option value="320">جمال عبد الناصر</option>
                                  <option value="321">ماسبيرو</option>
-                                 <option value="322">الزمالك</option>
+                                 <option value="322">صفاء حجازي  (الزمالك)</option>
                                  <option value="323">الكيت كات</option>
                                 </select>
                                  </>
