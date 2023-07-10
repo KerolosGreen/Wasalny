@@ -8,11 +8,12 @@ import Footer from './Footer';
 const ThisYear = new Date();
 function AppBody(){
     const[howtogonow,sethowtogonow]=useState("");
+    const [Stationscount , setStationscount]=useState("");
     return(
         <div className='AppBodyClass'>
             <AppHeader/>
-            <AppBodyFunction sethowtogonow={sethowtogonow}/>
-            <AppBottom howtogonow={howtogonow} />
+            <AppBodyFunction sethowtogonow={sethowtogonow} setStationscount={setStationscount}/>
+            <AppBottom howtogonow={howtogonow}  Stationscount={Stationscount} />
             <Footer/>
         </div>
     )
