@@ -93,7 +93,7 @@ function WasalnyButton(props){
         "العتبة",
         "جمال عبد الناصر",
         "ماسبيرو",
-        "صفاء حجازي  (الزمالك)",
+        "الزمالك",
         "الكيت كات",
     ];
 
@@ -105,119 +105,160 @@ function WasalnyButton(props){
 
         if(CurrentLVL==DestLVL && DestLVL==1 ){
             if(CurrentStation>DestStation){
-                props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);            
+                props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]); 
+                props.setStationscount(CurrentStation-DestStation);
             }
             else{
                 props.sethowtogo(" اركب اتجاه المرج ← انزل محطة " +firstLVLstations[parseInt(DestStation)]);
+                props.setStationscount(DestStation-CurrentStation);
             }
         }
 
         if(CurrentLVL==DestLVL && DestLVL==2 ){
             if(CurrentStation>DestStation){
                 props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(CurrentStation-DestStation);
             }
             else{
                 props.sethowtogo(" اركب اتجاه شبرا الخيمه ← انزل محطة " +SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(DestStation-CurrentStation);
             }
         }
 
         if(CurrentLVL==1 && DestLVL==2){
             if(CurrentStation>19){
-                if(DestStation>10)
+                if(DestStation>10){
                 props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه شبرا الخيمه ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-19])+parseInt([DestStation-10]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-19])+parseInt([10-DestStation]));
+                    
                 }
             }
             else{
-                if(DestStation>10)
+                if(DestStation>10){
                 props.sethowtogo(" اركب اتجاه المرج ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه شبرا الخيمة ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([19-CurrentStation])+parseInt([DestStation-10]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه المرج ← انزل محطة السادات و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([19-CurrentStation])+parseInt([10-DestStation]));
                 }
             }
         }
 
         if(CurrentLVL==2 && DestLVL==1){
             if(CurrentStation>10){
-                if(DestStation>19)
+                if(DestStation>19){
                 props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-10])+parseInt([DestStation-19]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-10])+parseInt([19-DestStation]));
                 }
             }
             else{
-                if(DestStation>19)
+                if(DestStation>19){
                 props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([10-CurrentStation])+parseInt([DestStation-19]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة السادات و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([10-CurrentStation])+parseInt([19-DestStation]));
                 }
             }
         }
 
         if(CurrentLVL==1 && DestLVL==3){
             if(CurrentStation>20){
-                if(DestStation>20)
+                if(DestStation>20){
                 props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-20])+parseInt([DestStation-20]));
+            }
                 else{
-                    props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه عدلي منصور← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                    props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه ا اتجاه عدلي منصور← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-20])+parseInt([20-DestStation]));
                 }
             }
             else{
-                if(DestStation>20)
+                if(DestStation>20){
                 props.sethowtogo("  اركب اتجاه المرج ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([20-CurrentStation])+parseInt([DestStation-20]));
+                }
                 else{
                     props.sethowtogo("  اركب اتجاه المرج ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه عدلي منصور ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([20-CurrentStation])+parseInt([20-DestStation]));
                 }
             }
         }
         if(CurrentLVL==2 && DestLVL==3){
             if(CurrentStation>12){
-                if(DestStation>19)
+                if(DestStation>19){
                 props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة العتبة و حول للخط التالت ← اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-12])+parseInt([DestStation-19]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه المنيب ← انزل محطة العتبة و حول للخط التالت ← اركب اتجاه عدلي منصور ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-12])+parseInt([19-DestStation]));
                 }
             }
             else{
-                if(DestStation>19)
+                if(DestStation>19){
                 props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة العتبة و حول للخط التالت ← اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([12-CurrentStation])+parseInt([DestStation-19]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه شبرا الخيمة ← انزل محطة العتبة و حول للخط التالت ← اركب اتجاه عدلي منصور ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([12-CurrentStation])+parseInt([19-DestStation]));
                 }
             }
         }
 
         if(CurrentLVL==3 && DestLVL==2){
             if(CurrentStation>19){
-                if(DestStation>12)
+                if(DestStation>12){
                 props.sethowtogo(" اركب اتجاه عدلي منصور ← انزل محطة العتبة و حول للخط التاني ← اركب اتجاه شبرا الخيمة ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-19])+parseInt([DestStation-12]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه عدلي منصور ← انزل محطة العتبة و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-19])+parseInt([12-DestStation]));
                 }
             }
             else{
-                if(DestStation>12)
+                if(DestStation>12){
                 props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة العتبة و حول للخط التاني ← اركب اتجاه شبرا الخيمة ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([19-CurrentStation])+parseInt([DestStation-12]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة العتبة و حول للخط التاني ← اركب اتجاه المنيب ← انزل محطة "+SecondLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([19-CurrentStation])+parseInt([12-DestStation]));
                 }
             }
         }
 
         if(CurrentLVL==3 && DestLVL==1){
             if(CurrentStation>20){
-                if(DestStation>20)
+                if(DestStation>20){
                 props.sethowtogo(" اركب اتجاه عدلي منصور ← انزل محطة جمال عبد الناصر و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([CurrentStation-20])+parseInt([DestStation-20]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه عدلي منصور ← انزل محطة جمال عبد الناصر و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([CurrentStation-20])+parseInt([20-DestStation]));
                 }
             }
             else{
-                if(DestStation>20)
+                if(DestStation>20){
                 props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة جمال عبد الناصر و حول للخط الاول ← اركب اتجاه المرج ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                props.setStationscount(parseInt([20-CurrentStation])+parseInt([DestStation-20]));
+                }
                 else{
                     props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة جمال عبد الناصر و حول للخط الاول ← اركب اتجاه حلوان ← انزل محطة "+firstLVLstations[parseInt(DestStation)]);
+                    props.setStationscount(parseInt([20-CurrentStation])+parseInt([20-DestStation]));
                 }
             }
         }
@@ -225,9 +266,11 @@ function WasalnyButton(props){
         if(CurrentLVL==DestLVL && DestLVL==3 ){
             if(DestStation<CurrentStation){
                 props.sethowtogo(" اركب اتجاه عدلي منصور ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(CurrentStation-DestStation);
             }
             else{
                 props.sethowtogo(" اركب اتجاه الكيت كات ← انزل محطة "+ThirdLVLstations[parseInt(DestStation)]);
+                props.setStationscount(DestStation-CurrentStation);
             }
         }
 
