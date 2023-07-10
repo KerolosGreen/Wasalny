@@ -137,7 +137,8 @@ function AppBottom(props){
             {/* <input type='text' onChange={onChangeName}/> */}
             <div className='AppBottomClass'>
                 {/* <p>{firstLVLstations[name]}</p> */}
-                    <p class="bg-dark rounded px-3 text-light p-2" id='resultid'>{props.howtogonow}</p>
+                {props.Stationscount?<p class="bg-dark rounded px-3 text-light p-2" id='resultid'>عدد المحطات : {props.Stationscount}</p>:null}
+                <p class="bg-dark rounded px-3 text-light p-2" id='resultid'>{props.howtogonow}</p>
                 
                 
                                         
