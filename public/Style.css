@@ -44,6 +44,9 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
+transition:ease-in-out;
+transition-delay:.5s;
 }
 h2{
     color: var(--light-black);
