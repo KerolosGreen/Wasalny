@@ -14,7 +14,7 @@ function AppBody(){
             {/*AD*/}
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9275465709873085"
      crossorigin="anonymous"></script>
-<!-- Wasalny AD1 -->
+            {/*<!-- Wasalny AD1 -->*/}
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-9275465709873085"
