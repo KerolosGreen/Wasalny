@@ -104,7 +104,13 @@ function WasalnyButton(props){
 
     
     function HowToGo(CurrentLVL,CurrentStation,DestLVL,DestStation){
+
+
+if(true){
 window.alert('بيتم تحديث المحطات دلوقت ، فبنعتذر عن اي خطأ ممكن يحصل او معلومات غير صحيحة حتي نهاية التحديث')        
+}
+
+
         // window.alert("The Website Is Still Under Developing , Once It Is Ready , This Message Won't Appear To You , So The Appearing Data Is Not 100% Right.");
 
 
