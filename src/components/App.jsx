@@ -7,14 +7,8 @@ import AppBody from './AppBody';
 
 
 function App(){
-function undermaintaining(Bool F){
-if(F){
-alert('بيتم تحديث المحطات دلوقت ، فبنعتذر عن اي خطأ ممكن يحصل او معلومات غير صحيحة حتي نهاية التحديث')
-}
-}
     return(
         <>
-{undermaintaining(true)}
         <NavBar/>
         <AppBody/>
 {/*         <Footer/> */}
