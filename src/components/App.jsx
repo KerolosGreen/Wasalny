@@ -8,7 +8,7 @@ import AppBody from './AppBody';
 
 function App(){
 function undermaintaining(Bool F){
-if(f){
+if(F){
 window.alert('بيتم تحديث المحطات دلوقت ، فبنعتذر عن اي خطأ ممكن يحصل او معلومات غير صحيحة حتي نهاية التحديث')
 }
 }
