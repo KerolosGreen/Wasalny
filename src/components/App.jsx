@@ -14,7 +14,7 @@ window.alert('بيتم تحديث المحطات دلوقت ، فبنعتذر ع
 }
     return(
         <>
-{undermaintaining(true)}
+{window.alert('بيتم تحديث المحطات دلوقت ، فبنعتذر عن اي خطأ ممكن يحصل او معلومات غير صحيحة حتي نهاية التحديث')}
         <NavBar/>
         <AppBody/>
 {/*         <Footer/> */}
