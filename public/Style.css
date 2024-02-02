@@ -163,14 +163,14 @@ h2{
     height: 100vh;
     backdrop-filter: blur(15px);
     z-index: 1;
-    color: var(--light-black);
+    color: var(--light-white);
   }
 
   #UnderDevelopingClass p{
     font-family: 'Noto Sans Arabic', sans-serif;
     font-size: 16px;
     text-align: center;
-      color: var(--light-black);
+      color: var(--light-white);
   }
 
   .navbar-brand{
