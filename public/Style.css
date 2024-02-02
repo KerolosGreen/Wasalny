@@ -163,7 +163,8 @@ h2{
     height: 100vh;
     backdrop-filter: blur(15px);
     z-index: 1;
-    color: var(--light-white);
+    color: var(--light-dark);
+    background-image:var(--light-background);
   }
 
   #UnderDevelopingClass p{
