@@ -76,7 +76,7 @@ function WasalnyButton(props){
                 props.setStationscount(parseInt([CurrentStation-20])+parseInt([DestStation-20]));
             }
                 else{
-                    props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه ا اتجاه عدلي منصور← انزل محطة "+third_level_stations[parseInt(DestStation)].name);
+                    props.sethowtogo(" اركب اتجاه حلوان ← انزل محطة جمال عبد الناصر و حول للخط التالت ← اركب اتجاه عدلي منصور← انزل محطة "+third_level_stations[parseInt(DestStation)].name);
                     props.setStationscount(parseInt([CurrentStation-20])+parseInt([20-DestStation]));
                 }
             }
