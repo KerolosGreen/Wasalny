@@ -5,16 +5,24 @@ import Stations from './Stations';
 function AppBottom(props){
         //Notify The User With The Details In Notifications Bar
     function addtonotifications(){
-        if(props.howtogonow){
-            Notification.requestPermission()
-        .then(
-            (permission)=>{
-                if(permission=='granted'){
-                    new Notification(props.howtogonow)
-                }
-            }
-        )
-        }  
+        // if(props.howtogonow){
+        //     Notification.requestPermission()
+        // .then(
+        //     (permission)=>{
+        //         if(permission=='granted'){
+        //             new Notification(props.howtogonow)
+        //         }
+        //     }
+        // )
+        // }  
+            navigator.serviceWorker.register('sw.js');
+Notification.requestPermission(function(result) {
+  if (result === 'granted') {
+    navigator.serviceWorker.ready.then(function(registration) {
+      registration.showNotification('Notification with ServiceWorker');
+    });
+  }
+});
     }
     return(
             <>
